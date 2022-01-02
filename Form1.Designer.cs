@@ -83,7 +83,10 @@
             this.Controls.Add(this.metroButton3);
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.Resizable = false;
+            this.Style = MetroFramework.MetroColorStyle.Teal;
             this.Text = "Тестовое задание";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
